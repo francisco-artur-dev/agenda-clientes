@@ -56,7 +56,7 @@ MAIL_USERNAME=fanilsonfani2023@gmail.com
 MAIL_PASSWORD=kuaohlpeqajmpcqj
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=fanilsonfani2023@gmail.com
-MAIL_FROM_NAME="Agenda Clientes"
+MAIL_FROM_NAME="Agenda de Clientes"
 
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=

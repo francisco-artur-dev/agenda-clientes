@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'agenda_aniversario'),
+    'name' => env('APP_NAME', 'Agenda de Aniversários'),
 
     /*
     |--------------------------------------------------------------------------
@@ -71,18 +71,17 @@ return [
     |--------------------------------------------------------------------------
     | Application Locale Configuration
     |--------------------------------------------------------------------------
-    |
-    | The application locale determines the default locale that will be used
-    | by Laravel's translation / localization methods. This option can be
-    | set to any locale for which you plan to have translation strings.
+    || A localidade do aplicativo determina a localidade padrão que será usada
+    | pelos métodos de tradução/localização do Laravel. Esta opção pode ser
+    | definido como qualquer localidade para a qual você planeja ter strings de tradução.
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'pt_BR'),
 
-    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
+    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'pt_BR'),
 
-    'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
+    'faker_locale' => env('APP_FAKER_LOCALE', 'pt_BR'),
 
     /*
     |--------------------------------------------------------------------------
@@ -109,12 +108,11 @@ return [
     |--------------------------------------------------------------------------
     | Maintenance Mode Driver
     |--------------------------------------------------------------------------
+    || Estas opções de configuração determinam o driver usado para determinar e
+    | gerenciar o status do "modo de manutenção" do Laravel. O driver "cache" irá
+    | permitir que o modo de manutenção seja controlado em várias máquinas.
     |
-    | These configuration options determine the driver used to determine and
-    | manage Laravel's "maintenance mode" status. The "cache" driver will
-    | allow maintenance mode to be controlled across multiple machines.
-    |
-    | Supported drivers: "file", "cache"
+    | Drivers suportados: “arquivo”, “cache”
     |
     */
 
