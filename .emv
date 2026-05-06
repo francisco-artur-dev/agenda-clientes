@@ -1,10 +1,10 @@
-APP_NAME=Agenda de clientes
+APP_NAME=agenda_clientes
 APP_ENV=local
-APP_KEY=
+APP_KEY=base64:n8GYZVYjOnewEX5NZZz6JgfyJNQngVIRGa5JGl581oI=
 APP_DEBUG=true
 APP_URL=http://localhost
 
-APP_LOCALE=pt-BR
+APP_LOCALE=pt_BR
 APP_FALLBACK_LOCALE=en
 APP_FAKER_LOCALE=en_US
 
@@ -56,7 +56,7 @@ MAIL_USERNAME=fanilsonfani2023@gmail.com
 MAIL_PASSWORD=kuaohlpeqajmpcqj
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=fanilsonfani2023@gmail.com
-MAIL_FROM_NAME="Agenda de Clientes"
+MAIL_FROM_NAME="Agenda Clientes"
 
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
