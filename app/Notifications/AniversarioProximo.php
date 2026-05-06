@@ -6,7 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Notifications\Messages\MailMessage;
 
-class AniversarioProximoNotification extends Notification
+class AniversarioProximo extends Notification
 {
     use Queueable;
 
