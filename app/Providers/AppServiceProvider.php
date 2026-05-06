@@ -26,10 +26,13 @@ class AppServiceProvider extends ServiceProvider
         // Definir o comprimento padrão para strings no banco de dados
          Schema::defaultStringLength(191);
 
-        // Forçar HTTPS no ambiente de produção
-         if (app()->environment('production')) {
-          URL::forceScheme('https');
-    }
+        // Forçar o uso de HTTPS em produção
+        if (app()->environment('production')) {
+            URL::forceScheme('https');
+
+            // Adicione esta linha abaixo para garantir que o Vite use HTTPS
+            $this->app['request']->server->set('HTTPS', true);
+        }
     }
     
 }
